@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+	margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Poppins';
+}
+
+/* NAVBAR */
+nav{
+	overflow: hidden;
+	background: #696969;
+}
+
+nav a{
+	float: left;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px;
+	transition: 0.5s;
+	font-family: 'Poppins';
+}
+
+nav a:hover{
+	background: #5f9ea0;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+/* SELESAI NAVBAR */
+
+/* FOOTER */
+.footer{
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    background-color: #696969;
+}
+
+.footer .copyright{
+    color: #eaeaea;
+    text-align:center;
+    font-size: 14px;
+	font-weight: 50;
+    padding: 10px;
+}
+/* FOOTER */
+
+/* ISI HOME PAGE */
+.main{  
+    background-color: whitesmoke ;
+}
+
+.atas{
+    text-align: center;
+}
+
+.atas h4{
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.atas h6{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.keg {
+    font-weight: 600;
+}
+.sub{
+    font-weight: 600;
+}
+/* SELESAI HOMEPAGE */
+
+/* PAGE ABOUT */
+.about-content{
+    background: #fff;
+	border-radius: 10px;
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	padding: 1.2em;
+	border: 1px solid #dfe4ea;
+	margin: 1em;
+	transition: 0.5s;
+}
+
+#tentang{
+	border:none;
+}
+
+.about-content:hover{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.social{
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+	margin: 3rem 1em;
+}
+
+.social a{
+	text-decoration: none;
+	color: #696969;
+}
+
+.social a i{
+	font-size: 3rem;
+    margin: 0 1em;
+    transition: 0.5s;
+}
+
+.fa-whatsapp i{
+    margin-right: 10em;
+}
+.social span{
+    font-size: 0.5em;
+    margin-top: 0.5em;
+    font-family: 'Poppins';
+    margin-left: 0.5em;
+}
+
+.whatsapp a:hover i{
+	color: rgb(24, 160, 24);
+}
+
+.email a:hover i{
+	color: rgb(243, 79, 79);
+}
+
